@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import { CartWidget } from 'react';
+//import { CartWidget } from 'react';
 
 const NavBar = () => {
     return (
@@ -12,8 +12,9 @@ const NavBar = () => {
                 <NavLink to={`/category/tablet`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Tablets</NavLink>
                 <NavLink to={`/category/notebook`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Notebooks</NavLink>
             </div>
-            <CartWidget/>
+            {/*            <CartWidget />*/}
         </nav>
     )
 }
+
 export default NavBar

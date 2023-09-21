@@ -1,0 +1,19 @@
+/*Achico las imagenes y las muestro de manera horizontal.*/
+
+.ListGroup {
+    display: flex; 
+    flex-wrap: nowrap; 
+  }
+  
+  .ListGroup .CardItem {
+    width: 200px; 
+    margin-right: 20px; 
+  }
+  
+  .ListGroup .CardItem img {
+    max-width: 100%; 
+  }
+  
+  /**/
+  
+  
