@@ -19,26 +19,46 @@ const productsByCategory = {
     category1: [
     {
         id: '4',
-        name: 'Producto de categoría 1',
+        name: 'Iphone 12 mini 64GB',
         price: 900,
         img: '',
         stock: 20,
-        description: 'Iphone 12 mini'
+        description: 'Iphone 12 mini 64GB'
     },
-      //Seguir
-    ],
+    {
+        id: '5',
+        name: 'Iphone 12',
+        price: 1400,
+        img: '',
+        stock: 20,
+        description: 'Iphone 12 128GB'
+    }
+],
+
     category2: [
     {
         id: '5',
-        name: 'Producto de categoría 2',
-        price: 1100,
+        name: 'Tablet SAMSUNG 4G A7 Lite',
+        price: 250,
         img: '',
         stock: 30,
-        description: 'HP i7 16GB 512SSD'
+        description: 'Tablet SAMSUNG 4G A7 Lite'
     },
       //Seguir..
     ],
-    // Más productos y cat..
+
+    category3: [
+        {
+            id: '5',
+            name: 'HP i7 16GB 512SSD',
+            price: 250,
+            img: '',
+            stock: 10,
+            description: 'Tablet SAMSUNG 4G A7 Lite'
+        },
+          //Seguir..
+        ], 
+    // Más productos y cat...
 };
 
 export const getProducts = () => {
