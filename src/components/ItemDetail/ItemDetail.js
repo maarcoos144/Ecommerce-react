@@ -6,6 +6,9 @@ import { CartContext } from '../../context/cartContext';
 
 
 const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
+    console.log('Propiedades en ItemDetail:', {
+        id, name, img, category, description, price, stock
+      });
     const [quantityAdded, setQuantityAdded] = useState(0);
 
     const { addItem } = useContext(CartContext)

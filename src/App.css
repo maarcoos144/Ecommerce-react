@@ -37,3 +37,8 @@
   }
 }
 
+.ActiveOption {
+  /* Estilos para la opción activa */
+  font-weight: bold;
+  color: red;
+}

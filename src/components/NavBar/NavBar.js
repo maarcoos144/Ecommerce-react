@@ -9,9 +9,9 @@ return (
         </Link>
 
         <div className='Categories'>
-            <NavLink to={`/category/category1`} activeClassName='ActiveOption'>Celulares</NavLink>
-            <NavLink to={`/category/category2`} activeClassName='ActiveOption'>Tablets</NavLink>
-            <NavLink to={`/category/notebook`} activeClassName='ActiveOption'>Notebooks</NavLink>
+            <NavLink to={`/category/category1`} >Celulares</NavLink>
+            <NavLink to={`/category/category2`} >Tablets</NavLink>
+            <NavLink to={`/category/notebook`} >Notebooks</NavLink>
         </div>
     </nav>
 );
